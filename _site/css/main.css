@@ -530,46 +530,56 @@ pre {
       font-weight: 100;
       -webkit-font-smoothing: antialiased; }
 
-.home-about .tile {
-  height: 300px; }
-  .home-about .tile .tile-container {
-    padding: 20px;
-    padding-left: 0px;
-    min-height: 200px; }
-    .home-about .tile .tile-container span {
-      font-family: "Droid Serif", serif;
+.home-tiles {
+  margin-bottom: 50px; }
+  .home-tiles .tile {
+    height: 300px; }
+    .home-tiles .tile .tile-container {
+      padding: 20px;
+      padding-left: 0px;
+      min-height: 200px; }
+      .home-tiles .tile .tile-container span {
+        font-family: "Droid Serif", serif;
+        font-size: 12px;
+        font-style: italic; }
+      .home-tiles .tile .tile-container h3 {
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 15px 0;
+        font-size: 19px;
+        letter-spacing: 1px; }
+      .home-tiles .tile .tile-container p {
+        font-size: 16px; }
+    .home-tiles .tile .tile-btn {
+      padding: 15px 20px;
+      background-color: #333333;
+      color: white;
       font-size: 12px;
-      font-style: italic; }
-    .home-about .tile .tile-container h3 {
-      text-transform: uppercase;
       font-weight: 500;
-      margin: 15px 0;
-      font-size: 19px;
       letter-spacing: 1px; }
-    .home-about .tile .tile-container p {
-      font-size: 16px; }
-  .home-about .tile .tile-btn {
-    padding: 15px 20px;
+  .home-tiles #tile-1 {
+    background-image: url("../images/home/box-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  .home-tiles #tile-2 {
     background-color: #333333;
-    color: white;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 1px; }
-.home-about #tile-1 {
-  background-image: url("../images/home/box-1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
-.home-about #tile-2 {
+    color: #e9e9e9; }
+    .home-tiles #tile-2 .tile-btn {
+      background-color: #4c4c4c; }
+  .home-tiles #tile-3 {
+    background-image: url("../images/home/box-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+
+.home-intro {
+  min-height: 500px;
+  padding: 50px; }
+
+#intro-1 {
   background-color: #333333;
-  color: #e9e9e9; }
-  .home-about #tile-2 .tile-btn {
-    background-color: #4c4c4c; }
-.home-about #tile-3 {
-  background-image: url("../images/home/box-3.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
+  color: white; }
 
 /**
  * Site footer

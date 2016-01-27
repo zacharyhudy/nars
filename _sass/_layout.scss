@@ -195,7 +195,8 @@
         }
     }
 }
-.home-about{
+.home-tiles{
+    margin-bottom: 50px;
     .tile{
         height: 300px;
         .tile-container{
@@ -247,7 +248,14 @@
         background-position: center;
     }
 }
-
+.home-intro{
+    min-height: 500px;
+    padding: 50px;
+}
+#intro-1{
+    background-color: #333333;
+    color: white;
+}
 
 /**
  * Site footer
