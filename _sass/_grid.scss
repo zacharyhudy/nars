@@ -45,28 +45,6 @@
 $toast-grid-namespace: "row" !default;
 $toast-grid-column-namespace: "col" !default;
 
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
-
 // $col-groups are the column groups you want
 // For example, $col-groups: (3, 4, 5) will output:
 // .grid__col--n-of-3, .grid__col--n-of-4, [...]
@@ -80,13 +58,35 @@ $toast-breakpoint-large: 1200px !default;
 $toast-breakpoint-medium: 992px !default;
 $toast-breakpoint-small: 768px !default;
 
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: $toast-breakpoint-small) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: $toast-breakpoint-medium) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: $toast-breakpoint-large) {
+  .container {
+    width: 1170px;
+  }
+}
+
 // Pushes and pulls
 $toast-pushes: true !default;
 $toast-pulls: true !default;
 
 .#{$toast-grid-namespace} {
   list-style: none;
-  margin-left: -$toast-gutter-width;
+  //margin-left: -$toast-gutter-width;
 }
 
 %span-all       { width: percentage(1/1); }

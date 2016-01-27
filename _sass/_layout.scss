@@ -175,48 +175,76 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-.home-tagline{
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    margin: auto;
+    .home-tagline{
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        margin: auto;
 
-    height: 200px;
-    width: 100%;
-    h2{
-        text-align: center;
-        color: white;
-        letter-spacing: 20px;
-        line-height: 50px;
-        font-size: 32px;
-        font-family: $droid;
-        font-style: italic;
-        font-weight: 100;
-        -webkit-font-smoothing: antialiased;
+        height: 200px;
+        width: 100%;
+        h2{
+            text-align: center;
+            color: white;
+            letter-spacing: 20px;
+            line-height: 50px;
+            font-size: 32px;
+            font-family: $droid;
+            font-style: italic;
+            font-weight: 100;
+            -webkit-font-smoothing: antialiased;
+        }
     }
 }
 .home-about{
-    .col{
+    .tile{
         height: 300px;
-        background: red;
+        .tile-container{
+            padding: 20px;
+            padding-left: 0px;
+            min-height: 200px;
+            span{
+                font-family: $droid;
+                font-size: 12px;
+                font-style: italic;
+            }
+            h3{
+                text-transform: uppercase;
+                font-weight: 500;
+                margin: 15px 0;
+                font-size: 19px;
+                letter-spacing: 1px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        .tile-btn{
+            padding: 15px 20px;
+            background-color: #333333;
+            color: white;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
     }
-    #box-1{
+    #tile-1{
         background-image: url('../images/home/box-1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
-    #box-2{
+    #tile-2{
         background-color: #333333;
+        color: #e9e9e9;
+        .tile-btn{
+            background-color: #4c4c4c;
+        }
     }
-    #box-3{
+    #tile-3{
         background-image: url('../images/home/box-3.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-    }
-    p{
-        text-align: justify;
     }
 }
 

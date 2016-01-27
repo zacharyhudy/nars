@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Instructor
+bodyClass: instructor
 permalink: /instructor/
 navPosition: 3
 ---

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Courses
+bodyClass: courses
 permalink: /courses/
 navPosition: 2
 ---

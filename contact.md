@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+bodyClass: contact
 permalink: /contact/
 navPosition: 4
 ---

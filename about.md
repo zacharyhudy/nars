@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+bodyClass: about
 permalink: /about/
 navPosition: 1
 ---
