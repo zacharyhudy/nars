@@ -188,7 +188,7 @@
             letter-spacing: 20px;
             line-height: 50px;
             font-size: 32px;
-            font-family: $droid;
+            font-family: $secondary-font-family;
             font-style: italic;
             font-weight: 100;
             -webkit-font-smoothing: antialiased;
@@ -204,7 +204,7 @@
             padding-left: 0px;
             min-height: 200px;
             span{
-                font-family: $droid;
+                font-family: $secondary-font-family;
                 font-size: 12px;
                 font-style: italic;
             }
@@ -251,6 +251,17 @@
 .home-intro{
     min-height: 500px;
     padding: 50px;
+    h2{
+        text-align: center;
+    }
+    hr{
+        margin: 0 auto 15px;
+        width: 50%;
+        border-style: solid;
+    }
+    p{
+        font-family: $secondary-font-family;
+    }
 }
 #intro-1{
     background-color: #333333;

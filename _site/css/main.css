@@ -576,6 +576,14 @@ pre {
 .home-intro {
   min-height: 500px;
   padding: 50px; }
+  .home-intro h2 {
+    text-align: center; }
+  .home-intro hr {
+    margin: 0 auto 15px;
+    width: 50%;
+    border-style: solid; }
+  .home-intro p {
+    font-family: "Droid Serif", serif; }
 
 #intro-1 {
   background-color: #333333;
