@@ -249,7 +249,7 @@
     }
 }
 .home-intro{
-    min-height: 500px;
+    height: auto;
     padding: 50px;
     h2{
         text-align: center;
@@ -266,6 +266,35 @@
 #intro-1{
     background-color: #333333;
     color: white;
+}
+
+.page-header{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    //background-image: url('../images/home/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .page-tagline{
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        margin: auto;
+
+        height: 100px;
+        width: 100%;
+        h2{
+            text-align: center;
+            color: white;
+            letter-spacing: 20px;
+            line-height: 50px;
+            font-size: 32px;
+            font-family: $secondary-font-family;
+            font-style: italic;
+            font-weight: 100;
+            -webkit-font-smoothing: antialiased;
+        }
+    }
 }
 
 /**
