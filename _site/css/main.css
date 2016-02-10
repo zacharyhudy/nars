@@ -172,6 +172,7 @@
   margin-right: -.25em;
   min-height: 1px;
   padding-left: 20px;
+  padding-right: 20px;
   vertical-align: top; }
   @media (max-width: 992px) {
     .col {
@@ -501,6 +502,59 @@ pre {
         padding: 5px 10px; } }
 
 /**
+ * Page content
+ */
+.page-content {
+  padding: 30px 0; }
+
+.page-heading {
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 10px; }
+
+.post-list {
+  margin-left: 0;
+  list-style: none; }
+  .post-list > li {
+    margin-bottom: 30px; }
+
+.post-meta {
+  font-size: 12.25px;
+  color: #828282; }
+
+.post-link {
+  display: block;
+  font-size: 24px; }
+
+/** 
+ * Posts
+ */
+.post-header {
+  margin-bottom: 30px; }
+
+.post-title {
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1; }
+  @media screen and (max-width: 800px) {
+    .post-title {
+      font-size: 36px; } }
+
+.post-content {
+  margin-bottom: 30px; }
+  .post-content h2 {
+    font-size: 32px; }
+    @media screen and (max-width: 800px) {
+      .post-content h2 {
+        font-size: 28px; } }
+  .post-content h3 {
+    font-size: 26px; }
+    @media screen and (max-width: 800px) {
+      .post-content h3 {
+        font-size: 22px; } }
+
+/**
  * Home Page
  */
 .home-header {
@@ -583,7 +637,8 @@ pre {
     width: 50%;
     border-style: solid; }
   .home-intro p {
-    font-family: "Droid Serif", serif; }
+    font-family: "Droid Serif", serif;
+    -webkit-font-smoothing: antialiased; }
 
 #intro-1 {
   background-color: #333333;
@@ -593,6 +648,7 @@ pre {
   position: relative;
   width: 100%;
   height: 300px;
+  margin-bottom: 50px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -615,6 +671,81 @@ pre {
       font-style: italic;
       font-weight: 100;
       -webkit-font-smoothing: antialiased; }
+
+/**
+ * About
+ */
+.about-intro {
+  margin-bottom: 50px; }
+
+.about-tile {
+  width: 100%;
+  height: auto;
+  background-color: #f1f1f1; }
+  .about-tile hr {
+    border-color: #c39f76;
+    width: 60%;
+    margin: 20px auto;
+    border-style: solid; }
+  .about-tile h2 {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 28px; }
+  .about-tile h4 {
+    font-family: "Droid Serif", serif;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center; }
+  .about-tile .about-img {
+    height: 450px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; }
+    .about-tile .about-img h1 {
+      font-family: "Dosis", sans-serif;
+      color: white;
+      font-size: 5em;
+      letter-spacing: 2px;
+      width: 60px;
+      height: 105px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto; }
+  .about-tile .about-container {
+    position: relative;
+    height: 450px; }
+  .about-tile .about-content {
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0; }
+
+#about-1 {
+  background-image: url("../images/about/about-1.jpg"); }
+
+#about-2 {
+  background-image: url("../images/about/about-2.jpg"); }
+
+.about-closing {
+  margin-top: 50px;
+  text-align: center; }
+  .about-closing h3 {
+    font-family: "Dosis", sans-serif;
+    margin-bottom: 50px; }
+  .about-closing .course-btn {
+    background-color: #333333;
+    padding: 10px 25px;
+    color: white;
+    letter-spacing: 1px; }
 
 /**
  * Site footer
@@ -682,64 +813,6 @@ pre {
     text-align: center;
     margin: 40px 0;
     float: none; } }
-/**
- * Page content
- */
-.page-content {
-  padding: 30px 0; }
-
-.page-heading {
-  margin-top: 15px;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 10px; }
-
-.post-list {
-  margin-left: 0;
-  list-style: none; }
-  .post-list > li {
-    margin-bottom: 30px; }
-
-.post-meta {
-  font-size: 12.25px;
-  color: #828282; }
-
-.post-link {
-  display: block;
-  font-size: 24px; }
-
-/** 
- * Posts
- */
-.post-header {
-  margin-bottom: 30px; }
-
-.post-title {
-  font-size: 42px;
-  letter-spacing: -1px;
-  line-height: 1; }
-  @media screen and (max-width: 800px) {
-    .post-title {
-      font-size: 36px; } }
-
-.post-content {
-  margin-bottom: 30px; }
-  .post-content h2 {
-    font-size: 32px; }
-    @media screen and (max-width: 800px) {
-      .post-content h2 {
-        font-size: 28px; } }
-  .post-content h3 {
-    font-size: 26px; }
-    @media screen and (max-width: 800px) {
-      .post-content h3 {
-        font-size: 22px; } }
-  .post-content h4 {
-    font-size: 20px; }
-    @media screen and (max-width: 800px) {
-      .post-content h4 {
-        font-size: 18px; } }
-
 #nav-toggle {
   cursor: pointer;
   padding: 17px 35px 16px 0px; }
