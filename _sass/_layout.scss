@@ -373,6 +373,7 @@
 /**
  * About
  */
+
 .about-intro{
     margin-bottom: 50px;
 }
@@ -459,8 +460,79 @@
 }
 
 /**
+ * Courses
+ */
+
+.course-tile{
+    text-align: center;
+}
+.course-container{
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    margin: 50px -20px;
+    padding: 0 20px;
+    .course-content{
+        height: 350px;
+        width: 70%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        h1{
+            font-family: $third-font-family;
+            border-bottom: 1px solid;
+            width: 80px;
+            font-size: 5em;
+            font-weight: 100;
+            margin: 30px auto;
+        }
+        h2{
+            font-family: $base-font-family;
+            font-size: 28px;
+        }
+        p{
+            font-family: $secondary-font-family;
+            font-size: 14px;
+        }
+    }
+}
+#course-1{
+    background-color: #333333;
+    color: white;
+    p{
+        -webkit-font-smoothing: antialiased;
+    }
+}
+#course-2{
+    background-color: #f1f1f1;
+}
+
+/**
+ * Instructors
+ */
+
+.instructors{
+    .row{
+        margin: 100px 0;
+        .head-shot{
+            text-align: center;
+        }
+        .experience{
+            font-size: 14px;
+            font-family: $secondary-font-family;
+            font-style: italic;
+        }
+    }
+}
+
+
+/**
  * Site footer
  */
+
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;

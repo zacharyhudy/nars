@@ -748,6 +748,62 @@ pre {
     letter-spacing: 1px; }
 
 /**
+ * Courses
+ */
+.course-tile {
+  text-align: center; }
+
+.course-container {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  margin: 50px -20px;
+  padding: 0 20px; }
+  .course-container .course-content {
+    height: 350px;
+    width: 70%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; }
+    .course-container .course-content h1 {
+      font-family: "Dosis", sans-serif;
+      border-bottom: 1px solid;
+      width: 80px;
+      font-size: 5em;
+      font-weight: 100;
+      margin: 30px auto; }
+    .course-container .course-content h2 {
+      font-family: "Lato", sans-serif;
+      font-size: 28px; }
+    .course-container .course-content p {
+      font-family: "Droid Serif", serif;
+      font-size: 14px; }
+
+#course-1 {
+  background-color: #333333;
+  color: white; }
+  #course-1 p {
+    -webkit-font-smoothing: antialiased; }
+
+#course-2 {
+  background-color: #f1f1f1; }
+
+/**
+ * Instructors
+ */
+.instructors .row {
+  margin: 100px 0; }
+  .instructors .row .head-shot {
+    text-align: center; }
+  .instructors .row .experience {
+    font-size: 14px;
+    font-family: "Droid Serif", serif;
+    font-style: italic; }
+
+/**
  * Site footer
  */
 .site-footer {
