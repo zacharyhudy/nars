@@ -107,7 +107,7 @@
             bottom: 0;
             margin: auto;
             background-color: rgba(0, 0, 0, 0.8);
-            z-index: -1;
+            z-index: 999;
         }
 
         .trigger ul{
@@ -445,7 +445,7 @@
 }
 
 .about-closing{
-    margin-top: 50px;
+    margin: 100px;
     text-align: center;
     h3{
         font-family: $third-font-family;
@@ -788,7 +788,12 @@
 } 
 
 
-#nav-toggle { cursor: pointer; padding: 17px 35px 16px 0px; }
+#nav-toggle { 
+    cursor: pointer; 
+    padding: 17px 35px 16px 0px; 
+    position: relative;
+    z-index: 9999;
+}
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   cursor: pointer;
   border-radius: 1px;

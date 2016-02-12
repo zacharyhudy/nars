@@ -58,7 +58,7 @@ navPosition: 1
 	<div class="row">
 		<div class="col col--12-of-12">
 			<h3>Our Company recognizes the need to teach cutting edge safe railroading to employees, the public and to employers to reduce rail incidents.</h3>
-			<a class="course-btn" href="#">VIEW OUR COURSES</a>
+			<a class="course-btn" href="{{site.baseurl}}/courses">VIEW OUR COURSES</a>
 		</div>
 	</div>
 </div>

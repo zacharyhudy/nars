@@ -28,13 +28,13 @@ navPosition: 4
 	                <!-- Form Area -->
 	                <div class="contact-form">
 	                    <!-- Form -->
-	                    <form id="contact-us" method="post" action="/form.php">
+	                    <form id="contact-us" method="POST" action="//formspree.io/info@narailsafety.com">
 	                        <!-- Left Inputs -->
 	                        <div class="col col--6-of-12 wow animated slideInLeft" data-wow-delay=".5s">
 	                            <!-- Name -->
 	                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
 	                            <!-- Email -->
-	                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+	                            <input type="email" name="_replyto" id="mail" required="required" class="form" placeholder="Email" />
 	                        </div><!-- End Left Inputs -->
                             <div class="col col--6-of-12 wow animated slideInLeft" data-wow-delay=".5s">
 	                            <!-- Last Name -->
@@ -50,7 +50,7 @@ navPosition: 4
 	                        <!-- Bottom Submit -->
 	                        <div class="relative fullwidth col-xs-12">
 	                            <!-- Send Button -->
-	                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button> 
+	                            <button type="submit" value="Send" id="submit" class="form-btn semibold">Send Message</button> 
 	                        </div><!-- End Bottom Submit -->
 	                        <!-- Clear -->
 	                        <div class="clear"></div>

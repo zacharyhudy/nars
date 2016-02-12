@@ -11,6 +11,29 @@
      
     {% include footer.html %}
 
+    <script>
+
+		var w 	   = $(window).width(),
+			toggle = $('.site-nav .menu-icon'),
+			menu   = $('.trigger');
+
+
+		$(function() {
+			$(toggle).on('click', function(e) {
+				e.preventDefault();
+				menu.toggle();
+				this.classList.toggle( "active" );
+			});
+		});
+
+		$(window).resize(function(){
+			if(w > 320 && menu.is(':hidden')) {
+				menu.removeAttr('style');
+			}
+		});
+
+	</script>
+
   </body>
 
 </html>
