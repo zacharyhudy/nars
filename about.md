@@ -54,7 +54,7 @@ navPosition: 1
 	</div>
 </section>
 
-<div class="about-closing container">
+<div class="about-closing">
 	<div class="row">
 		<div class="col col--12-of-12">
 			<h3>Our Company recognizes the need to teach cutting edge safe railroading to employees, the public and to employers to reduce rail incidents.</h3>

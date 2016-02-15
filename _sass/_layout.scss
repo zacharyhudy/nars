@@ -108,6 +108,7 @@
             margin: auto;
             background-color: rgba(0, 0, 0, 0.8);
             z-index: 999;
+
             &.active{
                 display: block;
             }
@@ -447,6 +448,7 @@
 
 .about-closing{
     margin: 100px;
+    margin-top: 150px;
     text-align: center;
     h3{
         font-family: $third-font-family;
@@ -472,9 +474,10 @@
     width: 100%;
     min-height: 500px;
     margin: 50px -20px;
+    margin-bottom: -50px;
     padding: 0 20px;
     .course-content{
-        height: 400px;
+        min-height: 400px;
         width: 70%;
         position: absolute;
         top: 0;
@@ -519,11 +522,12 @@
  * Instructors
  */
 
-.instructors{
+.instructor-page{
     .row{
         margin: 100px 0;
         .head-shot{
             text-align: center;
+            margin-bottom: 25px;
         }
         .experience{
             font-size: 14px;
@@ -582,6 +586,7 @@
    background: #f8f8f8;
    border: 1px solid rgba(0, 0, 0, 0.075);
    margin-bottom: 25px;
+   margin-left: -15px;
    color: #727272 !important;
    font-size: 13px;
    -webkit-transition: all 0.4s;
@@ -727,6 +732,25 @@
         padding: 50px 0;
         .img-container{
             padding: 20px 0;
+        }
+    }
+
+    .about-page{
+        .about-tile{
+            margin: 20px 0;
+        }
+        .about-closing{
+            margin: 100px 0;
+        }
+    }
+    
+    .course-container{
+        .course-content{
+            height: auto;
+            width: 90%;
+            .button{
+                margin: 30px auto;
+            }
         }
     }
     .footer-nav{

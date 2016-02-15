@@ -7,7 +7,7 @@ permalink: /instructor/
 navPosition: 3
 ---
 
-<div class="instructors container">
+<div class="container">
 	<div class="row">
 		<div class="col col--4-of-12 head-shot">
 			<img src="{{site.baseurl}}/images/instructor/instructor.jpg">

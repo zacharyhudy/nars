@@ -29,7 +29,7 @@ navPosition: 2
 		</div>
 	</div>
 </div>
-<div class="about-closing container">
+<div class="about-closing">
 	<div class="row">
 		<div class="col col--12-of-12">
 			<h3>More courses will be offered at a later date.</h3>
