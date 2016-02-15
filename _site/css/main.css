@@ -382,6 +382,54 @@ pre {
 /**
  * Buttons
  */
+.button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px 12px;
+  background: #c5093b;
+  display: block;
+  width: 120px;
+  margin: 10px auto;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  font-size: 0.8em;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1); }
+  .button:hover {
+    background: #aa0437;
+    color: white; }
+
+/* Send Button Styles */
+.form-btn {
+  width: 180px;
+  display: block;
+  height: auto;
+  padding: 15px;
+  color: #fff;
+  background: #c5093b;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: auto;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1); }
+  .form-btn:hover {
+    background: #aa0437;
+    color: white;
+    border: none; }
+  .form-btn:active {
+    opacity: 0.9; }
+
 /**
  * Site header
  */
@@ -437,8 +485,8 @@ pre {
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
-      top: 9px;
-      right: 30px;
+      top: 10px;
+      right: 20px;
       background-color: transparent;
       border-radius: 5px;
       text-align: right; }
@@ -465,6 +513,10 @@ pre {
         margin: auto;
         background-color: rgba(0, 0, 0, 0.8);
         z-index: 999; }
+        .site-nav .trigger.active {
+          display: block; }
+        .site-nav .trigger .active {
+          display: block; }
       .site-nav .trigger ul {
         position: fixed;
         top: 0;
@@ -475,28 +527,28 @@ pre {
         height: 340px;
         width: 150px;
         z-index: 9; }
+        .site-nav .trigger ul li {
+          display: inline-block;
+          margin: 15px 0;
+          width: 100%;
+          text-align: center; }
+          .site-nav .trigger ul li a {
+            color: white;
+            border-bottom: none;
+            padding-bottom: 0;
+            font-size: 16px; }
+            .site-nav .trigger ul li a:hover {
+              border-bottom: none !important;
+              text-decoration: none !important; }
+          .site-nav .trigger ul li a.active {
+            border-bottom: none;
+            padding-bottom: 0; }
       .site-nav .trigger .lang-select {
         position: absolute;
         top: 660px;
         left: 0;
         right: 0;
         margin: auto; }
-      .site-nav .trigger li {
-        display: inline-block;
-        margin: 15px 0;
-        width: 100%;
-        text-align: center; }
-        .site-nav .trigger li a {
-          color: white;
-          border-bottom: none;
-          padding-bottom: 0;
-          font-size: 16px; }
-          .site-nav .trigger li a:hover {
-            border-bottom: none !important;
-            text-decoration: none !important; }
-        .site-nav .trigger li a.active {
-          border-bottom: none;
-          padding-bottom: 0; }
       .site-nav .page-link {
         display: block;
         padding: 5px 10px; } }
@@ -893,6 +945,10 @@ pre {
     font-weight: bold;
     text-shadow: 1px 1px 5px #969696; }
 
+.contact-list {
+  list-style: none;
+  margin-left: 0; }
+
 .contact-info {
   text-align: left;
   margin-bottom: 50px; }
@@ -904,55 +960,6 @@ pre {
 @media screen and (max-width: 900px) {
   .contact-info {
     text-align: center; } }
-/* Generic Button Styles */
-.button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 8px 12px;
-  background: #c5093b;
-  display: block;
-  width: 120px;
-  margin: 10px auto;
-  border-radius: 3px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-  font-size: 0.8em;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1); }
-  .button:hover {
-    background: #aa0437;
-    color: white; }
-
-/* Send Button Styles */
-.form-btn {
-  width: 180px;
-  display: block;
-  height: auto;
-  padding: 15px;
-  color: #fff;
-  background: #c5093b;
-  border: none;
-  border-radius: 3px;
-  outline: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  margin: auto;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1); }
-  .form-btn:hover {
-    background: #aa0437;
-    color: white;
-    border: none; }
-  .form-btn:active {
-    opacity: 0.9; }
-
 /**
  * Site footer
  */
@@ -994,11 +1001,17 @@ pre {
     .footer-nav .social-media li {
       padding: 0 5px; }
 
-.contact-list {
-  list-style: none;
-  margin-left: 0; }
-
+@media screen and (max-width: 800px) {
+  .footer-contact-info, .footer-nav {
+    text-align: center;
+    margin: 40px 0;
+    float: none; } }
 @media screen and (max-width: 600px) {
+  .home-intro {
+    padding: 50px 0; }
+    .home-intro .img-container {
+      padding: 20px 0; }
+
   .footer-nav {
     float: right; }
     .footer-nav ul {
@@ -1014,14 +1027,9 @@ pre {
       margin-left: 20px; }
       .footer-nav .social-media li {
         padding: 0 5px; } }
-@media screen and (max-width: 800px) {
-  .footer-contact-info, .footer-nav {
-    text-align: center;
-    margin: 40px 0;
-    float: none; } }
 #nav-toggle {
   cursor: pointer;
-  padding: 17px 35px 16px 0px;
+  padding: 17px 0px 16px 0px;
   position: relative;
   z-index: 9999; }
 

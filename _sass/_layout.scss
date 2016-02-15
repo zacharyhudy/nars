@@ -77,9 +77,9 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: transparent   ;
+        top: 10px;
+        right: 20px;
+        background-color: transparent;
         border-radius: 5px;
         text-align: right;
 
@@ -108,6 +108,12 @@
             margin: auto;
             background-color: rgba(0, 0, 0, 0.8);
             z-index: 999;
+            &.active{
+                display: block;
+            }
+            .active{
+                display: block;
+            }
         }
 
         .trigger ul{
@@ -120,40 +126,35 @@
             height: 340px;
             width: 150px;
             z-index:9;
+            li{
+                display: inline-block;
+                margin: 15px 0;
+                width: 100%;
+                text-align: center;
+
+                a{
+                    color: white;
+                    border-bottom: none;
+                    padding-bottom: 0;
+                    font-size: 16px;
+
+                    &:hover {
+                        border-bottom: none !important;
+                        text-decoration: none !important; 
+                    }
+                }
+                a.active{
+                    border-bottom: none;
+                    padding-bottom: 0;
+                }
+            }
         }
         .trigger .lang-select{
-            // position: fixed;
-            // top: 0;
-            // left: 0;
-            // margin: 0;
-
             position: absolute;
             top: 660px;
             left: 0;
             right: 0;
             margin: auto;
-        }
-        .trigger li{
-            display: inline-block;
-            margin: 15px 0;
-            width: 100%;
-            text-align: center;
-
-            a{
-                color: white;
-                border-bottom: none;
-                padding-bottom: 0;
-                font-size: 16px;
-
-                &:hover {
-                    border-bottom: none !important;
-                    text-decoration: none !important; 
-                }
-            }
-            a.active{
-                border-bottom: none;
-                padding-bottom: 0;
-            }
         }
 
         .page-link {
@@ -535,39 +536,47 @@
 /**
  * Contact Page
  */
- .contact {
-   margin: 100px 0; }
+.contact {
+   margin: 100px 0; 
+}
 
- #contact {
-   padding: 10px 0 10px; }
+#contact {
+   padding: 10px 0 10px; 
+}
 
- .contact-text {
-   margin: 45px auto; }
+.contact-text {
+   margin: 45px auto; 
+}
 
- .mail-message-area {
+.mail-message-area {
    width: 100%;
-   padding: 0 15px; }
+   padding: 0 15px; 
+}
 
- .mail-message {
+.mail-message {
    width: 100%;
    background: rgba(255, 255, 255, 0.8) !important;
    -webkit-transition: all 0.7s;
    -moz-transition: all 0.7s;
    transition: all 0.7s;
    margin: 0 auto;
-   border-radius: 0; }
+   border-radius: 0; 
+}
 
- .not-visible-message {
+.not-visible-message {
    height: 0px;
-   opacity: 0; }
+   opacity: 0; 
+}
 
- .visible-message {
+.visible-message {
    height: auto;
    opacity: 1;
-   margin: 25px auto 0; }
+   margin: 25px auto 0; 
+}
 
- /* Input Styles */
- .form {
+/* Input Styles */
+
+.form {
    width: 100%;
    padding: 15px;
    background: #f8f8f8;
@@ -577,20 +586,24 @@
    font-size: 13px;
    -webkit-transition: all 0.4s;
    -moz-transition: all 0.4s;
-   transition: all 0.4s; }
+   transition: all 0.4s; 
+}
 
- .form:hover {
-   border: 1px solid #0A5793; }
+.form:hover {
+   border: 1px solid #0A5793; 
+}
 
- .form:focus {
+.form:focus {
    color: white;
    outline: none;
-   border: 1px solid #0A5793; }
+   border: 1px solid #0A5793; 
+}
 
- .textarea {
+.textarea {
    height: 200px;
    max-height: 200px;
-   max-width: 100%; }
+   max-width: 100%; 
+}
 
 
 .contact-header {
@@ -622,6 +635,11 @@
     }
 }
 
+.contact-list {
+    list-style: none;
+    margin-left: 0;
+}
+
 .contact-info {
     text-align: left;
     margin-bottom: 50px; 
@@ -639,61 +657,6 @@
     } 
 }
 
-/* Generic Button Styles */
-.button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 8px 12px;
-  background: #c5093b;
-  display: block;
-  width: 120px;
-  margin: 10px auto;
-  border-radius: 3px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-  font-size: 0.8em;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1); 
-
-  &:hover{
-    background: #aa0437;
-    color: white;
-  }
-}
-
-/* Send Button Styles */
-.form-btn {
-  width: 180px;
-  display: block;
-  height: auto;
-  padding: 15px;
-  color: #fff;
-  background: #c5093b;
-  border: none;
-  border-radius: 3px;
-  outline: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  margin: auto;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1); 
-
-  &:hover{
-    background: #aa0437;
-    color: white;
-    border: none;
-  }
-  &:active{
-    opacity: 0.9;
-  }
-}
 
 
 /**
@@ -751,12 +714,21 @@
     }
 }
 
-.contact-list {
-    list-style: none;
-    margin-left: 0;
-}
+@include media-query($footer-break) {
+    .footer-contact-info, .footer-nav{
+        text-align: center;
+        margin: 40px 0;
+        float: none;
+    }
+} 
 
 @include media-query($on-palm) {
+    .home-intro{
+        padding: 50px 0;
+        .img-container{
+            padding: 20px 0;
+        }
+    }
     .footer-nav{
         float: right;
         ul{
@@ -779,18 +751,12 @@
     }
 }
 
-@include media-query($footer-break) {
-    .footer-contact-info, .footer-nav{
-        text-align: center;
-        margin: 40px 0;
-        float: none;
-    }
-} 
+
 
 
 #nav-toggle { 
     cursor: pointer; 
-    padding: 17px 35px 16px 0px; 
+    padding: 17px 0px 16px 0px; 
     position: relative;
     z-index: 9999;
 }
@@ -810,7 +776,6 @@
 #nav-toggle span:after {
   bottom: -10px;
 }
-
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   transition: all 500ms ease-in-out;
 }

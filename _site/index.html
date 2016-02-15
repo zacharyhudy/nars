@@ -240,8 +240,8 @@ $('#nav-toggle').click(function(){
 		$(function() {
 			$(toggle).on('click', function(e) {
 				e.preventDefault();
-				menu.toggle();
 				this.classList.toggle( "active" );
+				menu.toggleClass( "active" );	
 			});
 		});
 
