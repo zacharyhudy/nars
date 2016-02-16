@@ -514,7 +514,7 @@
         -webkit-font-smoothing: antialiased;
     }
 }
-#course-2{
+#course-2, #course-3{
     background-color: #f1f1f1;
 }
 
@@ -726,6 +726,16 @@
         float: none;
     }
 } 
+
+@include media-query($on-laptop) {
+    #course-3{
+        background: #333333;
+        color: white;
+        p{
+            -webkit-font-smoothing: antialiased;
+        }
+    }
+}
 
 @include media-query($on-palm) {
     .home-intro{
