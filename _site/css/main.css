@@ -566,6 +566,34 @@ pre {
   text-align: center;
   letter-spacing: 10px; }
 
+.page-header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .page-header .page-tagline {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 100px;
+    width: 100%; }
+    .page-header .page-tagline h2 {
+      text-align: center;
+      color: white;
+      letter-spacing: 20px;
+      line-height: 50px;
+      font-size: 32px;
+      font-family: "Droid Serif", serif;
+      font-style: italic;
+      font-weight: 100;
+      -webkit-font-smoothing: antialiased; }
+
 .post-list {
   margin-left: 0;
   list-style: none; }
@@ -697,34 +725,6 @@ pre {
   background-color: #333333;
   color: white; }
 
-.page-header {
-  position: relative;
-  width: 100%;
-  height: 300px;
-  margin-bottom: 50px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
-  .page-header .page-tagline {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    height: 100px;
-    width: 100%; }
-    .page-header .page-tagline h2 {
-      text-align: center;
-      color: white;
-      letter-spacing: 20px;
-      line-height: 50px;
-      font-size: 32px;
-      font-family: "Droid Serif", serif;
-      font-style: italic;
-      font-weight: 100;
-      -webkit-font-smoothing: antialiased; }
-
 /**
  * About
  */
@@ -810,7 +810,7 @@ pre {
 .course-container {
   position: relative;
   width: 100%;
-  min-height: 500px;
+  min-height: 520px;
   margin: 50px -20px;
   margin-bottom: -50px;
   padding: 0 20px; }
@@ -911,12 +911,12 @@ pre {
   transition: all 0.4s; }
 
 .form:hover {
-  border: 1px solid #0A5793; }
+  border: 1px solid #c5093b; }
 
 .form:focus {
   color: white;
   outline: none;
-  border: 1px solid #0A5793; }
+  border: 1px solid #c5093b; }
 
 .textarea {
   height: 200px;
@@ -958,9 +958,9 @@ pre {
   text-align: left;
   margin-bottom: 50px; }
   .contact-info .contact-title {
-    color: #0A5793; }
+    color: #c5093b; }
   .contact-info a {
-    color: #0A5793; }
+    color: #c5093b; }
 
 @media screen and (max-width: 900px) {
   .contact-info {
@@ -1012,27 +1012,36 @@ pre {
     margin: 40px 0;
     float: none; } }
 @media screen and (max-width: 992px) {
+  .about-page .about-tile {
+    margin: 20px 0; }
+
   #course-3 {
     background: #333333;
     color: white; }
     #course-3 p {
       -webkit-font-smoothing: antialiased; } }
 @media screen and (max-width: 600px) {
+  .home-header .home-tagline h2 {
+    font-size: 26px; }
+
+  .page-header .page-tagline h2 {
+    font-size: 20px; }
+
   .home-intro {
     padding: 50px 0; }
     .home-intro .img-container {
       padding: 20px 0; }
 
-  .about-page .about-tile {
-    margin: 20px 0; }
   .about-page .about-closing {
     margin: 100px 0; }
 
-  .course-container .course-content {
-    height: auto;
-    width: 90%; }
-    .course-container .course-content .button {
-      margin: 30px auto; }
+  .course-container {
+    min-height: 550px; }
+    .course-container .course-content {
+      height: auto;
+      width: 90%; }
+      .course-container .course-content .button {
+        margin: 30px auto; }
 
   .footer-nav {
     float: right; }

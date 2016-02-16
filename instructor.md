@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Instructor
+title: Instructors
 tagline: INSTRUCTORS
 bodyClass: instructor
 permalink: /instructor/
