@@ -10,7 +10,7 @@ navPosition: 3
 <div class="container">
 	<div class="row">
 		<div class="col col--4-of-12 head-shot">
-			<img src="{{site.baseurl}}/images/instructor/instructor.jpg">
+			<img src="{{site.baseurl}}/images/instructor/walter.jpg">
 		</div>
 		<div class="col col--8-of-12">
 			<h2>Walter Hudy <span class="experience">/ 28 years experience</span></h2>
@@ -20,7 +20,7 @@ navPosition: 3
 
 	<div class="row">
 		<div class="col col--4-of-12 head-shot">
-			<img src="{{site.baseurl}}/images/instructor/instructor.jpg">
+			<img src="{{site.baseurl}}/images/instructor/scott.jpg">
 		</div>
 		<div class="col col--8-of-12">
 			<h2>Scott Hanson <span class="experience">/ 27 years experience</span></h2>
@@ -30,7 +30,7 @@ navPosition: 3
 
 	<div class="row">
 		<div class="col col--4-of-12 head-shot">
-			<img src="{{site.baseurl}}/images/instructor/instructor.jpg">
+			<img src="{{site.baseurl}}/images/instructor/carter.jpg">
 		</div>
 		<div class="col col--8-of-12">
 			<h2>Carter Schick <span class="experience">/ 25 years experience</span></h2>

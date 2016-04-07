@@ -3,8 +3,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="North American Rail Safety, Rail, Safety, North, America, narailsafety, railsafety, Saskatchewan, Yorkton, Regina, Saskatoon, Melville, CN, CP, conductor, yard switcher, locomotive operator, practical training, training, about, courses, teachers, contact, results, oriented, convenient, ldm" />
+  <meta name="author" content="North American Rail Safety">
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="3 month">
+
+  <meta property="og:title" content="North American Rail Safety"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:image" content="http://www.narailsafety.com/images/og-thumb.jpg"/>
+  <meta property="og:url" content="http://narailsafety.com"/>
+  <meta property="og:description" content="Our Company North American Rail Safety recognizes the need to teach cutting edge safe railroading to employees the public and to employers to reduce rail incidents."/>
+
+  <title>{% if page.title %}North American Rail Safety - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <!-- North American Rail Safety, Saskatchewan, Safety Training  -->
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
