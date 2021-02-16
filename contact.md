@@ -13,7 +13,7 @@ navPosition: 4
 			<div class="col col--4-of-12">
 				<div class="contact-info">
 					<p><span class="contact-title">HEAD OFFICE</span></p>
-					<p>BOX 1282<br />YORKTON SK, S3N 2X3</p>
+					<p>BOX 1306<br />Melville, SK<br />S0A 2P0</p>
 					<p style="letter-spacing: 1px;">Tel  306.621.6775<br />Fax 306.782.0204</p>
 					<p><a href="mailto:{{site.email}}">{{site.email}}</a></p>
 				</div>

@@ -6,7 +6,7 @@ description: Our Company North American Rail Safety recognizes the need to teach
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://narailsafety.com" # the base hostname & protocol for your site
-address: "Box 1282 <br/> Yorkton, SK S3N 2X3"
+address: "Box 1306 <br/> Melville, SK S0A 2P0"
 
 # Build settings
 markdown: kramdown 

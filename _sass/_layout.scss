@@ -508,7 +508,8 @@
         }
     }
 }
-#course-1{
+
+#course-1, #course-4{
     background-color: #333333;
     color: white;
     p{
@@ -740,6 +741,10 @@
         p{
             -webkit-font-smoothing: antialiased;
         }
+    }
+    #course-4 {
+        background-color: #f1f1f1;
+        color: #111;
     }
 }
 
