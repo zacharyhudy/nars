@@ -45,8 +45,8 @@ navPosition: 2
 	<div id="course-4" class="course-container">
 		<div class="course-content">
 			<h1>04</h1>
-			<h2>LOCOMOTIVE OPERATOR COURSE</h2>
-			<p>This course can only begin after the completion of the 2 day conductor/yard switcher course. This course is designed to teach the safe operation of locomotives that perform switching. Focus is given to air systems, braking, and the starting and stopping of movements with significant weight.</p>
+			<h2>TRAINING AND SAFETY ADVISORS</h2>
+			<p>Our team observes and makes safety and training recommendations for railway and switching operations. Our background in safety and award-winning training gives us the ability to train safe AND productive railway workers.</p>
 			<a class="button" href="{{site.baseurl}}/contact">LEARN MORE</a>
 		</div>
 	</div>
